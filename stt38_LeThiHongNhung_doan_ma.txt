@@ -1,0 +1,108 @@
+    1  cd 38_Le_Thi_Hong_NhungBaitap
+    2  notepad README.md
+    3  git add .
+    4  git commit -m "cap nhat noi dung"
+    5  git push origin main
+    6  git checkout main
+    7  git checkout -b branch_1
+    8  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+    9  git add text_branch_1.txt
+   10  git commit -m "them file cho nhanh 1"
+   11  git push origin branch_1
+   12  git checkout main
+   13  git checkout -b branch_2
+   14  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+   15  git add text_branch_2.txt
+   16  git commit -m "them file cho nhanh 2"
+   17  git push origin branch_2
+   18  git checkout main
+   19  git checkout -b branch_3
+   20  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+   21  git add text_branch_3.txt
+   22  git commit -m "them file cho nhanh 3"
+   23  git push origin branch_3
+   24  git checkout main
+   25  git checkout -b branch_4
+   26  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+   27  git add text_branch_4.txt
+   28  git commit -m "them file cho nhanh 4"
+   29  git push origin branch_4
+   30  git checkout main
+   31  git branch -D branch_4
+   32  git branch --list
+   33  git branch -r
+   34  git checkout main
+   35  git pull
+   36  mkdir main_folder
+   37  cd main_foldee
+   38  echo "noi dung 1" > main_txt_1.txt
+   39  echo "noi dung 2" > main_txt_2.txt
+   40  echo "noi dung 3" > main_txt_3.txt
+   41  cd ..
+   42  cd main_folder
+   43  cd 38_Le_Thi_Hong_NhungBaitap
+   44  cd main_folder
+   45  echo "noi dung 1" > main_txt_1.txt
+   46  echo "noi dung 2" > main_txt_2.txt
+   47  echo "noi dung 3" > main_txt_3.txt
+   48  cd ..
+   49  git add main_foder
+   50  git add main_folder
+   51  git commit -m " them thu muc main_folder chua 3 file"
+   52  git push origin main
+   53  git checkout branch_1
+   54  git pull origin main
+   55  git push origin branch_1
+   56  git checkout branch_2
+   57  git pull origin main
+   58  git push origin branch_2
+   59  git checkout branch_3
+   60  git pull origin main
+   61  git push origin branch_3
+   62  git checkout branch_1
+   63  git checkout -b branch_5
+   64  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+   65  git add text_branch_1.txt
+   66  git commit -m "cap nhat noi dung cho text_branch_1.txt cho nhanh 5"
+   67  git push origin branch_5
+   68  git checkout branch_1
+   69  git merge branch_5
+   70  git checkout branch_1
+   71  git checkout main
+   72  git merge branch_1
+   73  git merge branch_2
+   74  git merge branch_3
+   75  git merge branch_4
+   76  git merge branch_4
+   77  git branch -r
+   78  checkout -b branch_4 origin/branch_4
+   79  git  checkout -b branch_4 origin/branch_4
+   80  git checkout main
+   81  git push origin main
+   82  git branch -r
+   83  git checkout -b branch_4 origin/branch_4
+   84  git checkout main
+   85  git merge branch_4
+   86  git push origin main
+   87  git checkout main
+   88  git branch -d branch_5
+   89  git branch -d branch_2
+   90  git branch -d branch_3
+   91  git branch -d branch_4
+   92  git push origin -d branch_2
+   93  git push origin -d branch_3
+   94  git push origin -d branch_4
+   95  git checkout branch_1
+   96  git pull origin main
+   97  git push otigin branch_1
+   98  git push origin branch_1
+   99  git checkout main
+  100  history > stt38_LeThiHongNhung_doan_ma.txt
