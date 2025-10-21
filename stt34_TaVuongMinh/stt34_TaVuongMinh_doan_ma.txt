@@ -1,0 +1,491 @@
+    1  git cònig --global user,name Minh Vương
+    2  git config--global user,name Minh Vương
+    3  git config --global user,name Minh vươngs
+    4  git config --user,name minh vuong
+    5  git config --user
+    6  [200~mkdir EX1
+    7  cd EX1
+    8  touch myfile.txt
+    9  mkdir -p EX1
+   10  cd EX1
+   11  [200~
+   12  mkdir -p EX1
+   13  cd 19A3HN
+   14  stt_họvàtên_BTTH_2
+   15  [200~mkdir "tên_thư_mục"~
+   16  mkdir "tên_thư_mục"
+   17  mkdir "19A3HN TaMINh"
+   18  touch "tên_file"
+   19  mkdir "tên_thư_mục"
+   20  mkdir "tên_thư_mục"
+   21  mkdir "tên_thư_mục"
+   22  mkdir
+   23  mkdir "TaMinh 19A3HN"
+   24  cd
+   25  cd/c
+   26  cd /c
+   27  ls
+   28  cd /34_TaVuongMinh_BTTH_2
+   29  mkdir -p EX1
+   30  mkdir EX1
+   31  mkdir EX1
+   32  mkdir EX1
+   33  mkdir EX1
+   34  mkdir -p EX1
+   35  cd EX1
+   36  mkdir EX1
+   37  mkdir -p EX1
+   38  cd EX1
+   39  touch myfile.txt
+   40  echo "Noi dung cua lop 19A3HN trong myfile.txt" > myfile.txt
+   41  echo "Noi dung thu hai cua lop 19A3HN trong file" > myfile.txt
+   42  cat myfile.txt
+   43  echo "Noi dung thu hai cua lop 19A3HN trong file" >> myfile.txt
+   44  cat myfile.txt
+   45  ls
+   46  echo "Noi dung file thu hai" > myfile2.txt
+   47  diff myfile.txt myfile2.txt
+   48  history > ../KETQUA_TH2.TXT
+   49  cd ..
+   50  ls
+   51  mkdir -p EX1
+   52  cd EX1
+   53  touch myfile.txt
+   54  echo "Noi dung cua lop 19A3HN myfile.txt" > myfile.txt
+   55  echo "Noi dung thu hai cua lop 19A3HN vao file" >> myfile.txt
+   56  cat myfile.txt
+   57  ls -la
+   58  echo "Noi dung file cua 19A1HN" > myfile2.txt 
+   59  echo "Noi dung file cua lop 19A1HN" > myfile2.txt diff myfile.txt myfile2.txt
+   60  echo "Noi dung file thu hai" > myfile2.txt
+   61  diff myfile.txt myfile2.txt
+   62  cd ..
+   63  : > KETQUA_TH2.TXT
+   64  echo "=== KET QUA THUC HANH 2 ===" >> KETQUA_TH2.TXT
+   65  echo "" >> KETQUA_TH2.TXT
+   66  (   echo '$ mkdir -p EX1';   echo '$ cd EX1';   echo '$ touch myfile.txt';   echo '$ echo "Day la noi dung dong thu nhat trong myfile.txt" > myfile.txt';   echo '$ echo "Day la dong thu hai duoc them vao file" >> myfile.txt';   echo "";   echo '$ cat myfile.txt'; cat EX1/myfile.txt;   echo "";   echo '$ ls -la EX1'; ls -la EX1;   echo "";   echo '$ echo "Noi dung file thu hai" > myfile2.txt';   echo '$ diff myfile.txt myfile2.txt'; diff EX1/myfile.txt EX1/myfile2.txt; ) >> KETQUA_TH2.TXT 2>&1
+   67  echo "Da tao file KETQUA_TH2.TXT trong thu muc 19A3HN"
+   68  cd ..
+   69  echo "=== KET QUA THUC HANH 2 ===" > KETQUA_TH2.TXT
+   70  cat EX1/myfile.txt >> KETQUA_TH2.TXT
+   71  ls EX1 >> KETQUA_TH2.TXT
+   72  diff EX1/myfile.txt EX1/myfile2.txt >> KETQUA_TH2.TXT
+   73  cd ..
+   74  echo "=== KET QUA THUC HANH 2 ===" > KETQUA_TH2.TXT
+   75  cat EX1/myfile.txt >> KETQUA_TH2.TXT
+   76  ls EX1 >> KETQUA_TH2.TXT
+   77  diff EX1/myfile.txt EX1/myfile2.txt >> KETQUA_TH2.TXT
+   78  git init EX2
+   79  cd EX2
+   80  git status
+   81  echo "Đây là file 19A3HN trong repo EX2" > readme.txt
+   82  git status
+   83  history > ../KETQUA_TH3.TXT
+   84  cd ..
+   85  ls
+   86  git init EX4
+   87  cd EX4
+   88  echo "Noi dung bai thuc hanh cua lop 19A3HN" > file4.txt
+   89  git status
+   90  git add file4.txt
+   91  git status
+   92  git commit -m "Thêm file4.txt vao noi dung bai thuc hanh lop 19A3HN"
+   93  git commit -m "Thêm file4.txt vào bài thực hành của lớp 19A3HN"
+   94  git commit -m "Thêm file4.txt vào bài thực hành lớp 19A3"
+   95  git commit -m "Thêm file4.txt vào bài thực hành số 4"
+   96  git commit -m "Thêm file4.txt noi dung bai thuc hanh cua lop 19A3HN"
+   97  cd\c
+   98  git strate
+   99  git init EX4
+  100  git intit EX4
+  101  git init EX4
+  102  git init EX4
+  103  cd EX4
+  104  echo"Bai thuc hanh cua lop 19A3HN" > file4.txt
+  105  echo " Noi dung bai thuc cua lop 19A3HN" > file4.txt
+  106  git init EX4
+  107  git init EX4
+  108  CD...lS
+  109  git status
+  110  git status
+  111  echo "Đây là bài thực hành số 4" > file4.txt
+  112  git status
+  113  git init EX4
+  114  cd EX4
+  115  echo "Đây là bài thực hành số 4" > file4.txt
+  116  git status
+  117  git add file4.txt
+  118  git status
+  119  git commit -m "Thêm file4.txt vào bài thực hành số 4"
+  120  git commit -m "Thêm file4.txt vào bài thực hành số 4"
+  121  git log
+  122  history > ../KETQUA_TH4.TXT
+  123  cd ..
+  124  ls
+  125  mkdir EX1
+  126  cd EX1
+  127  touch myfile.txt
+  128  echo "Noi dung thua nhat cua lop 19A3HN" > myfile.txt
+  129  echo "Noi dung thua hai cua lop 19A3HN" >> myfile.txt
+  130  cat myfile.txt
+  131  ls
+  132  echo "Noi dung file thu hai" > myfile2.txt
+  133  diff myfile.txt myfile2.txt
+  134  history > ../KETQUA_TH2.TXT
+  135  cat ../KETQUA_TH2.TXT
+  136  cd ..
+  137  ls
+  138  touch .gitignore
+  139  echo"*.log" "*.tmp > .gitignore
+  140  touh .gitignore
+  141  touch .gitignore
+  142  git init 19A3
+  143  cd 19A3/
+  144  touch .gitignore
+  145  echo "*.log" > .gitignore
+  146  touch .gitignore
+  147  echo "*.log" > .gitignore
+  148  echo "*.tmp" >> .gitignore
+  149  cat .gitignore
+  150  clear
+  151  git init THCS 19A3
+  152  git init 19A3
+  153  cd 19A3/
+  154  touch .gitignore
+  155  echo "*.log" > .gitignore
+  156  echo "*.tmp" >> .gitignore
+  157  cat .gitignore
+  158  touch f1.log f2.log f3.log
+  159  touch f1.log f2.log f3.tmp
+  160  Ls
+  161  git add .
+  162  git commit-m "thuc hien commit lan 1"
+  163  git commit -m "thuc hien commit lan 1"
+  164  toch EX2.txt
+  165  ls
+  166  touch ex1.txt
+  167  ls
+  168  git add .
+  169  git commit -m "thuc hien commit lan 2"
+  170  echo "*.txt" >> .gitignore
+  171  touch important.txt
+  172  cat .gitignore
+  173  echo '!impe
+  174  dsvo
+  175  jda
+  176  clear
+  177  midir EX5
+  178  mkdir EX5
+  179  touch .gitignore
+  180  mkdir EX5
+  181  cd EX5
+  182  git init
+  183  touch .gitignore
+  184  touch "*.log" > .gitignore
+  185  touch "*.tmp" >> .gitignore
+  186  echo "thu nghiem lan 1" text.log
+  187  echo "thu nghiem lan 1" data.log
+  188  git status
+  189  git add .
+  190  git status
+  191  git commit -m " test THCS 19A3"
+  192  git commit -m " Test thanh cong"
+  193  git log
+  194  git commit -m "test thanh cong"
+  195  git commit -m"test thành công"
+  196  git logg
+  197  git log
+  198  mkdir EX5
+  199  cd EX5
+  200  git init EXr5
+  201  git init
+  202  touch .gitignore
+  203  touch "*.log" > .gitignore
+  204  touch "*.tmp" >> .gitignore
+  205  echo "thu nghiem" > text.log
+  206  echo "thu nghiem" > data.log
+  207  git status
+  208  git add .
+  209  git add.
+  210  git add ;
+  211  git add .
+  212  clear\
+  213  git --help
+  214  mkdir ex5
+  215  mkdir ex5
+  216  mkdir ex6
+  217  cd ex6
+  218  git init --base centralrepo
+  219  git init -- base centralrepo
+  220  git init --base centralRepo
+  221  git init--
+  222  git init -- base centralRepo
+  223  git init --base CentralRepo
+  224  git init -- base CentralRepo
+  225  git init --bare centralrepo
+  226  git clone centralrepo
+  227  git clone centralrepo devi 1
+  228  git clone centralrepo Dev1
+  229  git config --local user name "Minz"
+  230  cd Dev1
+  231  git config --local user name "Minz"
+  232  git config --local user.name "Minz"
+  233  cd ..
+  234  ls
+  235  git push
+  236  clear
+  237  https://github.com/II-Max/IoT.git
+  238  git clone https://github.com/II-Max/IoT.git'
+  239  '"
+  240  git clone https://github.com/II-Max/IoT.git
+  241  cd IoT
+  242  touch TaVuongMInh.txt
+  243  git add .
+  244  git commit -m"TaVuongMinh"
+  245  git commit -m "TaVuongMinh"
+  246  git commit -m "TaVuongMinh"
+  247  ls
+  248  git commit -m "TaVuongMinh"
+  249  git fetch
+  250  git pull
+  251  git push
+  252  git push
+  253  git clone
+  254  git clonehttps://github.com/tvminh25174600134-code/34_Ta_Vuong_Minh_bai_tap.git
+  255  git clone https://github.com/tvminh25174600134-code/34_Ta_Vuong_Minh_bai_tap.git
+  256  clear
+  257  cd 34_Ta_Vuong_Minh_bai_tap
+  258  notepad README.md
+  259  notepad README.md
+  260  git status
+  261  git add .
+  262  git status
+  263  git commit -m "cap nhat noi dung bai 2"
+  264   git config --global user.name "Ta Vuong Minh"
+  265  git config --global user.email "tvminh.25174600134@sv.uneti.edu.vn
+  266  cd 34_Ta_Vuong_Minh_bai_tap
+  267  git config
+  268  git status
+  269  git commit -m"cap nhat noi dung bai 2"
+  270   git config --global user.name "Ta Vuong Minh"
+  271  git config --global user.email "tvminh25174600134@sv.uneti.edu.vn"
+  272  git commit -m"cap nhat noi dung bai 2"
+  273  git push origin main
+  274  git checkout main
+  275  git checkout -b bramch_1
+  276  git checkout main
+  277  git checkout bramch_1
+  278  echo"Lorem ipsum dolor sit amet, consectetur adipiscing elit." > test branch_1.txt
+  279  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > test branch_1.txt
+  280  git add text_branch_1.txt
+  281  git add text_bramch_1.txt
+  282  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_bramch_1.txt
+  283  git add text_bramch_1.txt
+  284  cat text_branch_1.txt
+  285  git clone https://github.com/tvminh25174600134-code/34_Ta_Vuong_Minh_bai_tap.git
+  286  cd
+  287  git clone https://github.com/tvminh25174600134-code/34_Ta_Vuong_Minh_bai_tap.git
+  288  cd 34_Ta_Vuong_Minh_bai_tap
+  289  notepad REAME.md
+  290  git status
+  291  git add .
+  292  git status
+  293   git commit -m "cap nhat noi dung bai 2"
+  294  git push origin main
+  295   git checkout main
+  296    git checkout -b branch_1
+  297  git checkout main
+  298  git checkout branch_1
+  299      echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_branch_1.txt
+  300      git add text_branch_1.txt
+  301      git commit -m "them file cho nhanh 1"
+  302      git push origin branch_1
+  303   git checkout main
+  304    git checkout -b branch_2
+  305      echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+  306      git add text_branch_2.txt
+  307      git commit -m "them file vao nhanh 2"
+  308      git push origin branch_2
+  309    git checkout main
+  310   git checkout -b branch_3
+  311      echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > text_branch_3.txt
+  312      git add text_branch_3.txt
+  313      git commit -m "them file vao nhanh 3"
+  314      git push origin branch_3
+  315      git checkout main
+  316  git checkout -b branch_4
+  317      echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  318      git add text_branch_4.txt
+  319      git commit -m "them file vao nhanh 4"
+  320      git push origin branch_4
+  321      git checkout main
+  322  git branch --delete branch_4
+  323      git branch -D branch_4
+  324  git branch --
+  325  git branch --list
+  326      git branch -r
+  327     git checkout main
+  328     git pull 
+  329  git checkout main
+  330   mkdir main_folder
+  331      cd main_folder
+  332     echo "noi dung 1" > main_txt_1.txt
+  333      echo "noi dung 2" > main_txt_2.txt
+  334      echo "noi dung 3" > main_txt_3.txt
+  335    echo "noi dung 1" > main_txt_1.txt
+  336   echo "noi dung 1" > main_txt_1.txt
+  337      echo "noi dung 2" > main_txt_2.txt
+  338      echo "noi dung 3" > main_txt_3.txt
+  339  git add main_folder
+  340  cd...
+  341  cd..
+  342  git branch
+  343  git branch -a
+  344  git log --oneline --graph --all
+  345  git checkout main
+  346  mkdir main_folder
+  347    cd main_folder
+  348  echo "Nội dung file 1" > main_folder/main_txt_1.txt
+  349  echo "Nội dung file 2" > main_folder/main_txt_2.txt
+  350  echo "Nội dung file 3" > main_folder/main_txt_3.txt
+  351  ls main_folder
+  352  git branch
+  353  git checkout main
+  354  mkdir main_folder
+  355  ls
+  356  echo Nội dung file 1 > main_folder\main_txt_1.txt
+  357  echo Nội dung file 2 > main_folder\main_txt_2.txt
+  358  echo Nội dung file 3 > main_folder\main_txt_3.txt
+  359  dir main_folder
+  360  ls main_folder
+  361  ls
+  362  ls main_folder
+  363  cd 34_Ta_Vuong_Minh_bai_tap
+  364  mkdir main_folder
+  365  mkdir main_folder
+  366  echo "Nội dung file 1" > main_folder/main_txt_1.txt
+  367  echo "Nội dung file 2" > main_folder/main_txt_2.txt
+  368  echo "Nội dung file 3" > main_folder/main_txt_3.txt
+  369  ls main_folder
+  370  git add main_folder/
+  371  git commit -m "Thêm main_folder và 3 file text"
+  372  git push origin main
+  373  git status
+  374  git add main_folder/
+  375  git commit -m "Thêm thư mục main_folder và 3 file text"
+  376  cd ..
+  377  ls -a
+  378  git status
+  379  git add main_folder/
+  380  git commit -m "Thêm thư mục main_folder và 3 file text"
+  381  git push origin main
+  382  git checkout branch_1
+  383  git pull origin main
+  384  git clone https://github.com/tvminh25174600134-code/34_Ta_Vuong_Minh_bai_tap.git
+  385  cd 34_Ta_Vuong_Minh_bai_tap
+  386  notepad README.md
+  387  git status
+  388  git add .
+  389   git commit -m "cap nhat noi dung bai 2"
+  390    git push origin main
+  391   git checkout main
+  392    git checkout -b branch_1
+  393      git checkout main
+  394      git checkout branch_1
+  395      echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_branch_1.txt
+  396      git add text_branch_1.txt
+  397      git commit -m "them file cho nhanh 1"
+  398      git push origin branch_1
+  399  git checkout main
+  400    git checkout -b branch_2
+  401      echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+  402      git add text_branch_2.txt
+  403      git commit -m "them file vao nhanh 2"
+  404      git push origin branch_2
+  405  git checkout main
+  406   git checkout -b branch_3
+  407      echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > text_branch_3.txt
+  408      git add text_branch_3.txt
+  409      git commit -m "them file vao nhanh 3"
+  410      git push origin branch_3
+  411  git checkout main
+  412  git checkout -b branch_4
+  413      echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  414      git add text_branch_4.txt
+  415      git commit -m "them file vao nhanh 4"
+  416      git push origin branch_4
+  417  git checkout main
+  418  git branch --delete branch_4
+  419      git branch -D branch_4
+  420  git branch --
+  421      git branch --list
+  422   git branch -r
+  423      git checkout main
+  424  git pull
+  425  git checkout main
+  426  mkdir main_folder
+  427  cd main_folder
+  428  echo "noi dung 1" > main_txt_1.txt
+  429  echo "noi dung 2" > main_txt_2.txt
+  430  echo "noi dung 3" > main_txt_3.txt
+  431  cd ..
+  432  git add main_folder
+  433  git commit -m "them thu muc main_folder chua 3 file"
+  434  git push origin main
+  435  git checkout branch_1
+  436  git pull origin main
+  437  git checkout branch_2
+  438  git pull origin main
+  439  git checkout branch_3
+  440  git pull origin main
+  441  git push origin branch_3
+  442  git checkout branch_1
+  443  git pull origin main
+  444  git push origin branch_2
+  445  git push origin brach_1
+  446  git checkout branch_1
+  447  git pull origin main
+  448  git push origin brach_1
+  449  git checkout branch_2
+  450  git pull origin main
+  451  git push origin branch_2
+  452  git checkout branch_1
+  453  git checkout -b branch_5
+  454  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+  455  git add text_branch_1.txt
+  456  git commit -m"cap nhat noi dung text_branch_1.txt cho nhanh 5"
+  457  git push origin branch_5
+  458  git checkout branch_1
+  459  git merge branch_5
+  460  git branch -d branch_5
+  461  git checkout main
+  462  git merge branch_1
+  463  git merge branch_2
+  464  git merge branch_3
+  465  git merge branch_4
+  466  git branch -r
+  467  git checkout -b branch_4 origin/branch_4
+  468  git checkout main
+  469  git merge branch_4
+  470  git checkout main
+  471  git push origin main
+  472  git checkout main
+  473  git branch -d branch_2
+  474  git branch -d branch_3
+  475  git branch -d branch_4
+  476  git push origin -d branch_2
+  477  git push origin -d branch_3
+  478  git push origin -d branch_4
+  479  git checkout branch_1
+  480  git pull origin main
+  481  git push origin branch_1
+  482  git checkout main
+  483  history > stt34_TaVuongMinh_doan_ma.txt
