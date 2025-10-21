@@ -1,0 +1,646 @@
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS
+$ git clone https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+Cloning into '06_Nguyen_The_Anh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS
+$ cd 06_Nguyen_The_Anh_bai_tap
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ notepad README.rd
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ notepad README.md
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git add .
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git commit -m "cap nhat readme.md"
+[main 3f3bfa5] cap nhat readme.md
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 623 bytes | 623.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+   1ee66ac..3f3bfa5  main -> main
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git checkout
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git commit -m "thêm text_branch_1.txt vào branch_1"
+[branch_1 590558d] thêm text_branch_1.txt vào branch_1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ git commit -m "them text_branch_2.txt"
+[branch_2 ba3662c] them text_branch_2.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ git checkout branch_3
+error: pathspec 'branch_3' did not match any file(s) known to git
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_2)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_3)
+$ git commit -m "them text_branch_3.txt"
+[branch_3 9a03a64] them text_branch_3.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 335 bytes | 335.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_3)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git commit -m " them text_branch_4.txt"
+[branch_4 bb1a996]  them text_branch_4.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git push origin
+fatal: The current branch branch_4 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_4
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git push --set-upstream origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git branch -delete branch_4
+error: did you mean `--delete` (with two dashes)?
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git branch --delete branch_4
+error: cannot delete branch 'branch_4' used by worktree at 'D:/THCS/06_Nguyen_The_Anh_bai_tap'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch --delete branch_4
+warning: deleting branch 'branch_4' that has been merged to
+         'refs/remotes/origin/branch_4', but not yet merged to HEAD
+Deleted branch branch_4 (was bb1a996).
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch
+  branch_1
+  branch_2
+  branch_3
+* main
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ mkdir main_folder
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ cd main_folder
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ echo "day la file 1" > main_text_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ echo "day la file 2" > main_tetx_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ echo "day la file 2" > main_text_2.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ echo "day la file 3" > main_text_3.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ git add main_folder
+fatal: pathspec 'main_folder' did not match any files
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ git add .
+warning: in the working copy of 'main_folder/main_tetx_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_text_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_text_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_text_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ git commit -m "da tao main_folder chua 3 file txt"
+[main b288015] da tao main_folder chua 3 file txt
+ 4 files changed, 4 insertions(+)
+ create mode 100644 main_folder/main_tetx_1.txt
+ create mode 100644 main_folder/main_text_1.txt
+ create mode 100644 main_folder/main_text_2.txt
+ create mode 100644 main_folder/main_text_3.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 458 bytes | 458.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+   3f3bfa5..b288015  main -> main
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (main)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_tetx_1.txt | 1 +
+ main_folder/main_text_1.txt | 1 +
+ main_folder/main_text_2.txt | 1 +
+ main_folder/main_text_3.txt | 1 +
+ 4 files changed, 4 insertions(+)
+ create mode 100644 main_folder/main_tetx_1.txt
+ create mode 100644 main_folder/main_text_1.txt
+ create mode 100644 main_folder/main_text_2.txt
+ create mode 100644 main_folder/main_text_3.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_3)
+$ git pull origin main
+From https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 341 bytes | 341.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+   9a03a64..9d52600  branch_3 -> branch_3
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_3)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ notepad text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ notepad text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ cat text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ git status
+On branch branch_5
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../text_branch_1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_branch_1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ cd..
+bash: cd..: command not found
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap/main_folder (branch_5)
+$ cd ..
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git status
+On branch branch_5
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text_branch_1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main_folder/text_branch_1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git add .
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git commit -m "chinh sua nd text_brand_1.txt"
+[branch_5 a013e6b] chinh sua nd text_brand_1.txt
+ 2 files changed, 9 insertions(+), 1 deletion(-)
+ create mode 100644 main_folder/text_branch_1.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 806 bytes | 806.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git branch --delete branch_5
+error: cannot delete branch 'branch_5' used by worktree at 'D:/THCS/06_Nguyen_The_Anh_bai_tap'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch -d branch_5
+error: the branch 'branch_5' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_5'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch -D branch_5
+Deleted branch branch_5 (was a013e6b).
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git pull origin main
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (8/8), 4.49 KiB | 109.00 KiB/s, done.
+From https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+   b288015..a7a06aa  main       -> origin/main
+Updating b288015..a7a06aa
+Fast-forward
+ main_folder/text_branch_1.txt | 0
+ text_branch_1.txt             | 9 +++++++++
+ text_branch_2.txt             | 1 +
+ text_branch_3.txt             | 1 +
+ text_branch_4.txt             | 1 +
+ 5 files changed, 12 insertions(+)
+ create mode 100644 main_folder/text_branch_1.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ ls
+README.md     text_branch_1.txt  text_branch_3.txt
+main_folder/  text_branch_2.txt  text_branch_4.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git brand -d branch_2
+git: 'brand' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 2368838).
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 9d52600).
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git branch -d branch_4
+error: branch 'branch_4' not found
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git push origin --delete branch_2
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ - [deleted]         branch_2
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git push origin --delete branch_3
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ - [deleted]         branch_3
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git push origin --delete branch_4
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+ - [deleted]         branch_4
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Updating cd58ac6..a7a06aa
+Fast-forward
+ main_folder/text_branch_1.txt |  0
+ text_branch_1.txt             | 10 +++++++++-
+ text_branch_2.txt             |  1 +
+ text_branch_3.txt             |  1 +
+ text_branch_4.txt             |  1 +
+ 5 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 main_folder/text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git push
+fatal: The current branch branch_1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin branch_1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ git push --set-upstream origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Tanh27/06_Nguyen_The_Anh_bai_tap.git
+   e4d6901..a7a06aa  branch_1 -> branch_1
+branch 'branch_1' set up to track 'origin/branch_1'.
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ touch 06_Nguyen_The_Anh_doan_ma.txt
+
+ADMIN@DESKTOP-ARCUE92 MINGW64 /d/THCS/06_Nguyen_The_Anh_bai_tap (branch_1)
+$ notepad 06_Nguyen_The_Anh_doan_ma.txt
