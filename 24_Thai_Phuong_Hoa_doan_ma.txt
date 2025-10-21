@@ -1,0 +1,476 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2865
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red159\green160\blue28;\red47\green180\blue29;
+\red180\green36\blue25;}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c68469\c68012\c14211;\cssrgb\c20241\c73898\c14950;
+\cssrgb\c76411\c21697\c12527;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13160\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 hoa2107@MacBook-Air-cua-Thai ~ % git clone https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+Cloning into '24_Thai_Phuong_Hoa_bai_tap'...\
+remote: Enumerating objects: 3, done.\
+remote: Counting objects: 100% (3/3), done.\
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+Receiving objects: 100% (3/3), done.\
+hoa2107@MacBook-Air-cua-Thai ~ % rm -rf Thai_Phuong_Hoa_bai_tap \
+hoa2107@MacBook-Air-cua-Thai ~ % mkdir Tincs19a3\
+hoa2107@MacBook-Air-cua-Thai ~ % cd Tincs19a3\
+hoa2107@MacBook-Air-cua-Thai Tincs19a3 % git clone https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+Cloning into '24_Thai_Phuong_Hoa_bai_tap'...\
+remote: Enumerating objects: 3, done.\
+remote: Counting objects: 100% (3/3), done.\
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+Receiving objects: 100% (3/3), done.\
+hoa2107@MacBook-Air-cua-Thai Tincs19a3 % cd 24_Thai_Phuong_Hoa_bai_tap\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cd README.ms\
+cd: no such file or directory: README.ms\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cd README.md\
+cd: not a directory: README.md\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % ls\
+README.md\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cd README.md\
+\
+cd: not a directory: README.md\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add README.md\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "Updated README with initial Lorem Ipsum text"\
+[main 01944fb] Updated README with initial Lorem Ipsum text\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 10 insertions(+), 1 deletion(-)\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin main\
+Enumerating objects: 5, done.\
+Counting objects: 100% (5/5), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (3/3), 682 bytes | 682.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+   58fe409..01944fb  main -> main\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout -b branch_1\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add text_branch_1 file"\
+[branch_1 3f081f6] feat: Add text_branch_1 file\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 text_branch_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Switched to branch 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout -b branch_2\
+Switched to a new branch 'branch_2'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_2.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add text_branch_2 file"\
+[branch_2 6a147ee] feat: Add text_branch_2 file\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 text_branch_2.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Switched to branch 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout -b branch_3\
+Switched to a new branch 'branch_3'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add text_branch_3 file"\
+[branch_3 aa02d84] feat: Add text_branch_3 file\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 text_branch_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Switched to branch 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout -b branch_4\
+Switched to a new branch 'branch_4'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.tx\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_4.txt\
+fatal: pathspec 'text_branch_4.txt' did not match any files\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % ls                      \
+README.md		text_branch_4.tx\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.txt \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cat text_branch_4.txt\
+Cras ac mi nec nisi porta ultrices sed non ante\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_4.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add text_branch_4 file with course info"\
+[branch_4 817e542] feat: Add text_branch_4 file with course info\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 text_branch_4.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_1\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 364 bytes | 364.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: \
+remote: Create a pull request for 'branch_1' on GitHub by visiting:\
+remote:      https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap/pull/new/branch_1\
+remote: \
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ * [new branch]      branch_1 -> branch_1\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_2\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: \
+remote: Create a pull request for 'branch_2' on GitHub by visiting:\
+remote:      https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap/pull/new/branch_2\
+remote: \
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ * [new branch]      branch_2 -> branch_2\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_3\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 366 bytes | 366.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: \
+remote: Create a pull request for 'branch_3' on GitHub by visiting:\
+remote:      https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap/pull/new/branch_3\
+remote: \
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ * [new branch]      branch_3 -> branch_3\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_4\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (3/3), 365 bytes | 365.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: \
+remote: Create a pull request for 'branch_4' on GitHub by visiting:\
+remote:      https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap/pull/new/branch_4\
+remote: \
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ * [new branch]      branch_4 -> branch_4\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Switched to branch 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch --delete branch_4\
+error: the branch 'branch_4' is not fully merged\
+\cf3 hint: If you are sure you want to delete it, run 'git branch -D branch_4'\cf2 \
+\cf3 hint: Disable this message with "git config set advice.forceDeleteBranch false"\cf2 \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch --delete branch_4\
+error: the branch 'branch_4' is not fully merged\
+\cf3 hint: If you are sure you want to delete it, run 'git branch -D branch_4'\cf2 \
+\cf3 hint: Disable this message with "git config set advice.forceDeleteBranch false"\cf2 \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch -D branch_4\
+Deleted branch branch_4 (was 817e542).\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin --delete branch_4\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ - [deleted]         branch_4\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cd ..\
+hoa2107@MacBook-Air-cua-Thai Tincs19a3 % cd 24_Thai_Phuong_Hoa_bai_tap\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Already on 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+Already up to date.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % mkdir main_folder\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % cd main_folder \
+hoa2107@MacBook-Air-cua-Thai main_folder % cd .. \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % touch main_folder/main_txt_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % touch main_folder/main_txt_2.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % touch main_folder/main_txt_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add main_folder\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add main_folder with 3 new files"\
+[main 0d8b308] feat: Add main_folder with 3 new files\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 3 files changed, 0 insertions(+), 0 deletions(-)\
+ create mode 100644 main_folder/main_txt_1.txt\
+ create mode 100644 main_folder/main_txt_2.txt\
+ create mode 100644 main_folder/main_txt_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin main\
+Enumerating objects: 5, done.\
+Counting objects: 100% (5/5), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (4/4), 370 bytes | 370.00 KiB/s, done.\
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+   01944fb..0d8b308  main -> main\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout branch_1\
+Switched to branch 'branch_1'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+\cf3 hint: You have divergent branches and need to specify how to reconcile them.\cf2 \
+\cf3 hint: You can do so by running one of the following commands sometime before\cf2 \
+\cf3 hint: your next pull:\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint:   git config pull.rebase false  # merge\cf2 \
+\cf3 hint:   git config pull.rebase true   # rebase\cf2 \
+\cf3 hint:   git config pull.ff only       # fast-forward only\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint: You can replace "git config" with "git config --global" to set a default\cf2 \
+\cf3 hint: preference for all repositories. You can also pass --rebase, --no-rebase,\cf2 \
+\cf3 hint: or --ff-only on the command line to override the configured default per\cf2 \
+\cf3 hint: invocation.\cf2 \
+fatal: Need to specify how to reconcile divergent branches.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_1\
+Everything up-to-date\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout branch_2\
+Switched to branch 'branch_2'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+\cf3 hint: You have divergent branches and need to specify how to reconcile them.\cf2 \
+\cf3 hint: You can do so by running one of the following commands sometime before\cf2 \
+\cf3 hint: your next pull:\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint:   git config pull.rebase false  # merge\cf2 \
+\cf3 hint:   git config pull.rebase true   # rebase\cf2 \
+\cf3 hint:   git config pull.ff only       # fast-forward only\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint: You can replace "git config" with "git config --global" to set a default\cf2 \
+\cf3 hint: preference for all repositories. You can also pass --rebase, --no-rebase,\cf2 \
+\cf3 hint: or --ff-only on the command line to override the configured default per\cf2 \
+\cf3 hint: invocation.\cf2 \
+fatal: Need to specify how to reconcile divergent branches.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_2\
+Everything up-to-date\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout branch_3\
+Switched to branch 'branch_3'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+\cf3 hint: You have divergent branches and need to specify how to reconcile them.\cf2 \
+\cf3 hint: You can do so by running one of the following commands sometime before\cf2 \
+\cf3 hint: your next pull:\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint:   git config pull.rebase false  # merge\cf2 \
+\cf3 hint:   git config pull.rebase true   # rebase\cf2 \
+\cf3 hint:   git config pull.ff only       # fast-forward only\cf2 \
+\cf3 hint:\cf2 \
+\cf3 hint: You can replace "git config" with "git config --global" to set a default\cf2 \
+\cf3 hint: preference for all repositories. You can also pass --rebase, --no-rebase,\cf2 \
+\cf3 hint: or --ff-only on the command line to override the configured default per\cf2 \
+\cf3 hint: invocation.\cf2 \
+fatal: Need to specify how to reconcile divergent branches.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_3\
+Everything up-to-date\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout branch_1\
+Switched to branch 'branch_1'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin branch_1\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            branch_1   -> FETCH_HEAD\
+Already up to date.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout -b branch_5\
+Switched to a new branch 'branch_5'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % printf "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non\
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie\
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.\
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,\
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class\
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos\
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis\
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.\
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_1.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "docs: Update content for text_branch_1 in branch_5"\
+[branch_5 cd61aec] docs: Update content for text_branch_1 in branch_5\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 9 insertions(+), 1 deletion(-)\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_5\
+Enumerating objects: 5, done.\
+Counting objects: 100% (5/5), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 707 bytes | 707.00 KiB/s, done.\
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: \
+remote: Create a pull request for 'branch_5' on GitHub by visiting:\
+remote:      https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap/pull/new/branch_5\
+remote: \
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ * [new branch]      branch_5 -> branch_5\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch\
+  branch_1\
+  branch_2\
+  branch_3\
+* \cf4 branch_5\cf2 \
+  main\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Switched to branch 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch -D branch_5\
+Deleted branch branch_5 (was cd61aec).\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch\
+  branch_1\
+  branch_2\
+  branch_3\
+* \cf4 main\cf2 \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Already on 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+remote: Enumerating objects: 12, done.\
+remote: Counting objects: 100% (12/12), done.\
+remote: Compressing objects: 100% (7/7), done.\
+remote: Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)\
+Unpacking objects: 100% (7/7), 3.73 KiB | 546.00 KiB/s, done.\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+   0d8b308..ffc89a1  main       -> origin/main\
+Updating 0d8b308..ffc89a1\
+Fast-forward\
+ text_branch_1.txt | 9 \cf4 +++++++++\cf2 \
+ text_branch_2.txt | 1 \cf4 +\cf2 \
+ text_branch_3.txt | 1 \cf4 +\cf2 \
+ 3 files changed, 11 insertions(+)\
+ create mode 100644 text_branch_1.txt\
+ create mode 100644 text_branch_2.txt\
+ create mode 100644 text_branch_3.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % echo "Cras ac mi nec nisi porta ultrices sed non ante" > text_branch_4.txt \
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git add text_branch_4.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git commit -m "feat: Add text_branch_4 directly to main"\
+[main f2afd7d] feat: Add text_branch_4 directly to main\
+ Committer: Hoa <hoa2107@MacBook-Air-cua-Thai.local>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 text_branch_4.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin main\
+Enumerating objects: 4, done.\
+Counting objects: 100% (4/4), done.\
+Delta compression using up to 10 threads\
+Compressing objects: 100% (2/2), done.\
+Writing objects: 100% (3/3), 358 bytes | 358.00 KiB/s, done.\
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)\
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+   ffc89a1..f2afd7d  main -> main\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout main\
+Already on 'main'\
+Your branch is up to date with 'origin/main'.\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch -D branch_2\
+Deleted branch branch_2 (was 6a147ee).\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git branch -D branch_3\
+Deleted branch branch_3 (was aa02d84).\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin --delete branch_2\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ - [deleted]         branch_2\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin --delete branch_3\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+ - [deleted]         branch_3\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git checkout branch_1\
+Switched to branch 'branch_1'\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git pull origin main\
+From https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap\
+ * branch            main       -> FETCH_HEAD\
+Updating 3f081f6..f2afd7d\
+Fast-forward\
+ main_folder/main_txt_1.txt |  0\
+ main_folder/main_txt_2.txt |  0\
+ main_folder/main_txt_3.txt |  0\
+ text_branch_1.txt          | 10 \cf4 +++++++++\cf5 -\cf2 \
+ text_branch_2.txt          |  1 \cf4 +\cf2 \
+ text_branch_3.txt          |  1 \cf4 +\cf2 \
+ text_branch_4.txt          |  1 \cf4 +\cf2 \
+ 7 files changed, 12 insertions(+), 1 deletion(-)\
+ create mode 100644 main_folder/main_txt_1.txt\
+ create mode 100644 main_folder/main_txt_2.txt\
+ create mode 100644 main_folder/main_txt_3.txt\
+ create mode 100644 text_branch_2.txt\
+ create mode 100644 text_branch_3.txt\
+ create mode 100644 text_branch_4.txt\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % git push origin branch_1\
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)\
+To https://github.com/TP-Hoa21/24_Thai_Phuong_Hoa_bai_tap.git\
+   5624180..f2afd7d  branch_1 -> branch_1\
+hoa2107@MacBook-Air-cua-Thai 24_Thai_Phuong_Hoa_bai_tap % \
+}
