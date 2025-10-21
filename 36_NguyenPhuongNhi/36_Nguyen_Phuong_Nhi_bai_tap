@@ -1,0 +1,126 @@
+    1  git clone https://github.com/Nguyennhi-09/36_Nguyen_Phuong_Nhi_bai_tap.git
+    2  cd 36_Nguyen_Phuong_Nhi_bai_tap
+    3  notepad README.md
+    4  git status
+    5  git add .
+    6  git commit -m "noi dung bai tap"
+    7  git push origin main 
+    8  git checkout main
+    9  git checkout -b branch_1
+   10  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+   11  git add text_branch_1.txt
+   12  git commit -m "them file 1"
+   13  git push origin branch_1
+   14  git checkout main
+   15  git checkout -b branch_2
+   16  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_3.txt
+   17  git add text_branch_3.txt
+   18  git commit -m "them file 2"
+   19  git push origin branch_2
+   20  git checkout main
+   21  git checkout -b branch_3
+   22  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_4.txt
+   23  git add text_branch_4.txt
+   24  git commit -m "them file 3"
+   25  git push origin branch_3
+   26  git checkout main
+   27  git checkout branch_4
+   28  git checkout -b branch_4
+   29  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_3.txt
+   30  git add text_branch_3.txt
+   31  git commit -m "them file 4"
+   32  git push origin branch_4
+   33  git checkout main
+   34  git branch --delete branch_4
+   35  git branch --list
+   36  git branch -D branch_4
+   37  git branch --list
+   38  git checkout main
+   39  git pull 
+   40  git checkout main
+   41  mkdir main_folder
+   42  cd main_folder
+   43  echo "noi dung 1" > main_txt_1.txt
+   44  echo "noi dung 2" > main_txt_2.txt
+   45  echo "noi dung 3" > main_txt_3.txt
+   46  cd ..
+   47  git add main_folder
+   48  git commit -m "them muc cho main_folder"
+   49  git push origin main
+   50  git checkout branch_1
+   51  git pull origin main
+   52  git push origin branch_1
+   53  git checkout branch_2
+   54  git gull origin main
+   55  git pull origin main
+   56  git push origin branch_2
+   57  git checkout branch_3
+   58  git pull origin main
+   59  git push origin branch_3
+   60  git checkout branch_1
+   61  git checkout -b branch_5
+   62  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non
+metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie
+accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.
+Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,
+porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.
+Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+   63  git add text_branch_1.txt
+   64  git commit -m "cap nhat cho text_branch_1.txt nhanh 5"
+   65  git push origin branch_5
+   66  git checkout branch_1
+   67  git merge branch_5
+   68  git checkout branch_1
+   69  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+   70  git add text_branch_1.txt
+   71  git commit -m "sua noi dung de tao conflic"
+   72  git push origin branch_!
+   73  git push origin branch_1
+   74  git checkout branch_5
+   75  git checkout branch_1
+   76  git merge branch_5
+   77  notepad text_branch_1.txt
+   78  git diff branch_1 branch_5 -- text_branch_1.txt
+   79  git checkout branch_1
+   80  git merge branch_5
+   81  git branch -d branch_5
+   82  git checkout main
+   83  git merge branch_1
+   84  git merge branch_2
+   85  git merge branch_3
+   86  git merge branch_4
+   87  git branch -r
+   88  git checkout -b branch_4 origin/branch_4
+   89  git checkout main
+   90  git push origin main
+   91  git checkout main
+   92  git merge branch_2
+   93  git push origin main
+   94  git branch -r
+   95  git checkout -b branch_2/branch_2
+   96  git checkout main
+   97  git merge branch_2
+   98  git checkout main
+   99  git checkout -b branch_2
+  100  git checkout branch_2
+  101  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+  102  git add text_branch_2.txt
+  103  git commit -m "them file vao nhanh 2"
+  104  git push origin branch_2
+  105  git checkout main
+  106  git merge branch_2
+  107  git push origin
+  108  git checkout main
+  109  git branch -d branch_2
+  110  git branch -d branch_3
+  111  git branch -d branch_4
+  112  git push origin -d branch_2
+  113  git push origin -d branch_3
+  114  git push origin -d branch_4
+  115  git checkout branch_1
+  116  git pull origin main
+  117  git push origin branch_1
+  118  history > 36_Nguyen_Phuong_Nhi_bai_tap
