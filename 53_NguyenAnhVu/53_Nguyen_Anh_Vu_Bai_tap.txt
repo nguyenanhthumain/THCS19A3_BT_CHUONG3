@@ -1,0 +1,484 @@
+    1  git config --l
+    2  git config -l
+    3  git config --global user.name "Nguyen Anh Vu"
+    4  git config --global user.email "navu.25174600170@sv.uneti.edu.vn"'
+    5  cd ..
+    6  mkdir EX1
+    7  mkdir EX1
+    8  cd EX1
+    9  cd EX1
+   10  cd
+   11  touch myfile.txt
+   12  echo
+   13  echo "Xin chào"
+   14  cd ..
+   15  git init EX2
+   16  git  --version
+   17  git config
+   18  git config -l
+   19  git config --global user.name Vu
+   20  git config -l
+   21  git config --user.name Nguyen Anh Vu
+   22  git config --global user.name Nguyen Anh Vu
+   23  git config -l
+   24  git config --global user.email navu.25174600170@sv.uneti.edu.vn
+   25  git config -l
+   26  git config --local user.name Vu
+   27  clear
+   28  l
+   29  ls
+   30  clear
+   31  cd Desktop
+   32  cd Bàn làm việc
+   33  cd Desktop
+   34  clear
+   35  cd .
+   36  cd Ban lam viec
+   37  cd Banlamviec
+   38  cd Bàn làm việc
+   39  clear
+   40  ls
+   41  cd ..
+   42  cd ..
+   43  mkdir THCS19A3
+   44  ls
+   45  cd THCS19A3
+   46  ls
+   47  touch THCS19A3
+   48  touch thuchanh.txt
+   49  ls
+   50  clearf
+   51  clear
+   52  mkdir Vu
+   53  ls
+   54  echo text > thuchanh.txt
+   55  cat thuchanh..txt
+   56  cat thuchanh.txt
+   57  echo text_new >> thuchanh.txt
+   58  cat thuchanh.txt
+   59  echo > Vidu2.txt
+   60  ls
+   61  cat thuchanh.txt
+   62  clear
+   63  echo "day la noi dung ghi de" > thuchanh.txt
+   64  cat thuchanh.txt
+   65  diff thuchanh.txt Vidu2.txt
+   66  cat Vidu2.txt
+   67  echo "day la noi dung ghi de vd2" >> Vidu2.txt
+   68  cat Vidu2.txt
+   69  cat thuchanh.txt
+   70  diff thuchanh.txt Vidu2.txt
+   71  rm vidu2,txt
+   72  rm vidu2.txt
+   73  ls
+   74  rm thuchanh.txt
+   75  ls
+   76  cd Vu
+   77  cd Vu/
+   78  cd ..
+   79  ls
+   80  rm -d Vu
+   81  ls
+   82  mkdir Vu
+   83  ls
+   84  ls
+   85  cd Vu
+   86  ls
+   87  echo "vi du" > thuchanh.txt
+   88  cat thuchanh.txt
+   89  cd ..
+   90  ls
+   91  rm vu
+   92  rm -d Vu
+   93  rm -r Vu
+   94  ls
+   95  clear
+   96  gif --help
+   97  git --help
+   98  clear
+   99  git init 19a3
+  100  ls
+  101  git clone 19a3 19a3_clone
+  102  ls
+  103  git init EX2
+  104  cs EX2
+  105  cd EX2
+  106  git status
+  107  echo > btth3.txt
+  108  git status
+  109  ls
+  110  clear
+  111  cd download/
+  112  ls
+  113  clear
+  114  mkdir EX1
+  115  cd EX1
+  116  touch myfile.txt
+  117  ls
+  118  echo "Dòng đầu tiên trong myfile.txt" > myfile.txt
+  119  echo "Dòng thứ hai: Thực hành Git Bash" >> myfile.txt
+  120  ls
+  121  cat myfile.txt
+  122  cp myfile.txt ~/Documents/
+  123  diff myfile.txt ~/Document/myfile.txt
+  124  echo "Kết quả thực hành số 2:" > ../KETQUA_TH2.TXT
+  125  echo "Nội dung myfile.txt:" >> ../KETQUA_TH2.TXT
+  126  cat myfile.txt >> ../KETQUA_TH2.TXT
+  127  echo "So sánh với bản sao:" >> ../KETQUA_TH2.TXT
+  128  diff myfile.txt ~/Documents/myfile.txt >> ../KETQUA_TH2.TXT
+  129   
+  130  ls
+  131  clear
+  132  cd EX1
+  133  cd ..
+  134  cd .
+  135  cd EX1
+  136  touch myfile.txt
+  137  rm myfile.txt
+  138  touch myfile.txt
+  139  cat myfile.txt
+  140  ls
+  141  echo "Nội dung sau khi chỉnh sửa:" > ../KETQUA_TH2.TXT
+  142  cat myfile.txt >> ../KETQUA_TH2.TXT
+  143  echo "Danh sách tập tin trong EX1:" >> ../KETQUA_TH2.TXT
+  144  ls >> ../KETQUA_TH2.TXT
+  145  ls
+  146  cd EX1
+  147  clear
+  148  git status
+  149  git add MyFile.txt
+  150  git status
+  151  touch .gitignore
+  152  echo > "*.log" "*.tmp > .gitignore
+  153  [200~ echo > "*.log" "*.tmp > .gitignore
+  154  clear
+  155  clear
+  156  xz
+  157  mkdir EX5
+  158  cd EX5
+  159  ls
+  160  git init
+  161  touch .gitignore
+  162  echo "*.log" > .gitignore
+  163  echo "*.tmp" >> .gitignore
+  164  cat .gitignore
+  165  echo "test" > data.txt
+  166  echo "test2" >> log.txt
+  167  git status
+  168  gid add .
+  169  git add .
+  170  git status
+  171  git commit -m "thanh cong"
+  172  git log
+  173  cd ..
+  174  clear
+  175  mkdir EX6
+  176  cd EX6
+  177  git init --bare CentralRepo
+  178  git clone CentralRepo Dev1
+  179  git config --local user.name "Vu"
+  180  cd Dev1
+  181  git config --local user.name "Vu"
+  182  cd ..
+  183  git clone CentralRepo Dev2
+  184  ls
+  185  cd Dev1
+  186  touch Dev1.txt
+  187  git add .
+  188  git status
+  189  git commit -m "commit 1"
+  190  git status
+  191  git config 
+  192  git config check
+  193  git config -m
+  194  git config edit
+  195  mkdir EX6
+  196  cd ..
+  197  mkdir EX6
+  198  cd EX6
+  199  git --bare CentralRepo
+  200  git init '--bare CentralRepo
+  201  clear
+  202  touch
+  203  clear
+  204  touch .gitignore
+  205  echo "*.log" > .gitignore
+  206  echo "*.tmp" >> .gitignore
+  207  cat .gitignore
+  208  git init
+  209  git init 19a3
+  210  cd 19a3/
+  211  touch .gitignore
+  212  echo "*.log" > .gitignore
+  213  echo "*.tmp" >> .gitignore
+  214  cat .gitignore
+  215  touch f1.log f2.log f3.tmp
+  216  ls
+  217  git statustus
+  218  git status
+  219  git add .
+  220  git commit -m "thuc hien commit lan 1"
+  221  ls
+  222  touch ex1.txt
+  223  git status
+  224  git status
+  225  git add .
+  226  git status
+  227  git commit -m "thuc hien commit lan 2"
+  228  echo "*.txt" >> .gitignore
+  229  touch name.txt
+  230  echo name.txt >> .gitignore
+  231  cat .gitignore
+  232  git status
+  233  git add ,
+  234  git add .
+  235  git status
+  236  git commit -m "commit tiep"
+  237  clear
+  238  mkdir EX6
+  239  cd EX6
+  240  git init --bare CentraleRepo
+  241  git clone --bare CentraleRepo
+  242  cd Dev1
+  243  git config --local user.name "Vu"
+  244  cd ..
+  245  git clone --bare CentraleRepo Dev1
+  246  cd ..
+  247  git clone --bare CentraleRepo Dev1
+  248  cd ..
+  249  git clone --bare CentraleRepo Dev2
+  250  ls
+  251  clear
+  252  cd ..
+  253  mkdir EX6
+  254  cd ..
+  255  mkdir EX6
+  256  cd EX6
+  257  clear
+  258  mkdir EX6
+  259  cd EX6
+  260  git init --bare CenterRepo
+  261  git clone CenterRepo Dev1
+  262  cd Dev1
+  263  git config --local user.name "Vu"
+  264  cd ..
+  265  git clone CenterRepo Dev2
+  266  ls
+  267  cd Dev1
+  268  touch Dev1
+  269  touch Dev1.txt
+  270  git add .
+  271  git status
+  272  git commit -m "commit1"
+  273  git status
+  274  git pull
+  275  git push
+  276  git pull
+  277  cd Dev2
+  278  Dev 2
+  279  cd Dev2
+  280  ls
+  281  echo " i am dev 2" >> Dev1.txt
+  282  git push
+  283  git fetch
+  284  git pull
+  285  cat dev1.txt
+  286  git clone https://github.com/Anhvu1908/THCS19A3.git 
+  287  git clone https://github.com/vu19082007vn-commits/53_Nguy-n-Anh-V-_bai_tap.git
+  288  cd 53_Nguyễn_ANh_Vũ_bai_tap
+  289  touch bai1.txt
+  290  nano README.md
+  291  git clone 
+  292  Admin'@LAPTOP-1GGEGK5M MINGW64 ~/OneDrive/Tài liệu/19A3
+  293  $ git clone
+  294  clear
+  295  \\\
+  296  clear
+  297  cd ..
+  298  clear
+  299  git clone https://github.com/vu19082007vn-commits/53_Nguy-n-Anh-V-_bai_tap.git
+  300  git clone https://github.com/vu19082007vn-commits/53_Nguy-n-Anh-V-_bai_tap.git
+  301  cd 53_Nguyen_Anh_Vu_bai_tap
+  302  mkdir 53_Nguyen_Anh_Vu_bai_tap
+  303  cd 53_Nguyen_Anh_Vu_bai_tap
+  304  touch bai1.txt
+  305  git add .
+  306  git commit -m "thu nghiem"
+  307  pwd
+  308  ls -a
+  309  git add .
+  310  git commit -m "thu nghiem"
+  311  git status
+  312  clear
+  313  rm -rf 53_Nguyen_Anh_Vu_bai_tap
+  314  cd 53_Nguyen_Anh_Vu_bai_tap
+  315  git clone https://github.com/vu19082007vn-commits/53_Nguy-n-Anh-V-_bai_tap.git
+  316  cd 53_Nguyen_Anh_Vu_bai_tap
+  317  touch bai1.txt
+  318  echo > bai1.txt
+  319  git add .
+  320  git add .
+  321  git commit -m "Thêm bài 1"
+  322  git push origin main
+  323  git init
+  324  git clone [200~https://github.com/vu19082007vn-commits/53_Nguy-n-Anh-V-_bai_tap.git~
+  325  git clone https://github.com/vu19082007vn-commits/53_Nguyen-Anh-V-_bai_tap.git
+  326  cd bai_rap_3
+  327  clear
+  328  cd 53_Nguyen-Anh-V-_bai_tap
+  329  cd bai_tap_3
+  330  git clone https://github.com/vu19082007vn-commits/53_Nguyen-Anh-V-_bai_tap.git
+  331  cd [200~
+  332  cd 53_Nguyen-Anh-V-_bai_tap
+  333  git branch
+  334  code README
+  335  code README.md
+  336  git add .
+  337  git commit -m "Cập nhật readme.md theo đề bài 2"
+  338  git config --global user.name "Vũ"
+  339  git config --global email.name "navu.25174600170@sv.uneti.edu.vn"
+  340  git status
+  341  git config --global email.name "vu19082007vn@gmail.com"
+  342  git status
+  343  git push
+  344  git config --global --list
+  345  git add README.md
+  346  git commit -m "cap nhat"
+  347  git clone https://github.com/vu19082007vn-commits/53_Nguyen-Anh-V-_bai_tap.git
+  348  git clone https://github.com/vu19082007vn-commits/53_Nguyen-Anh-Vu_bai_tap_3.git
+  349  git clone https://github.com/vu19082007vn-commits/53_Nguyen-Anh-Vu_BaiTap_3.git
+  350  cd 53_Nguyen-Anh-Vu_BaiTap_3
+  351  notepad README.md
+  352  git clone https://github.com/vu19082007vn-commits/53_Nguyen_Anh_Vu_Bai_tap.git
+  353  cd 53_Nguyen_Anh_Vu_Bai_tap
+  354   notepad README.md
+  355  git clone https://github.com/vu19082007vn-commits/53_Nguyen_Anh_Vu_Bai_Tap.git
+  356  cd 53_Nguyen_Anh_Vu_Bai_Tap
+  357  notepad README.md
+  358  git status
+  359  git add .
+  360  git commit -m "chinh sua noi dung theo yeu cau bai 2"
+  361  git push origin main
+  362  git checkout main
+  363  git checkout -b branch_1
+  364  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_branch_1.txt
+  365  git add text_branch_1.txt
+  366  git commit -m "them file cho nhanh 1"
+  367  git push origin branch_1
+  368  git checkout main
+  369  git checkout -b branch_2
+  370  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+  371  git add text_branch_2.txt
+  372  git commit -m "them file vao nhanh 2"
+  373  git push origin branch_2
+  374  git checkout main
+  375  git checkout -b branch_3
+  376  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > text_branch_3.txt
+  377  git add text_branch_3.txt
+  378  git commit -m "them file vao nhanh 3"
+  379  git push origin branch_3
+  380  git checkout main
+  381  git checkout -b branch_4
+  382  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  383  git add text_branch_4.txt
+  384  git commit -m "them file vao nhanh 4"
+  385  git push origin branch_4
+  386  git checkout main
+  387  git branch --delete branch_4
+  388  git branch --list
+  389  git branch -D branch_4
+  390  git branch --list
+  391  git checkout main
+  392  git pull
+  393  git checkout main
+  394  mkdir main_folder
+  395  cd main_folder
+  396  echo "noi dung 1" > main_txt_1.txt
+  397  echo "noi dung 2" > main_txt_2.txt
+  398  echo "noi dung 3" > main_txt_3.txt
+  399  cd ..
+  400  git add main_folder
+  401  git commit -m " them thu muc main_folder chua 3 file"
+  402  git push origin main
+  403  git checkout branch_1
+  404  git pull origin main
+  405  git pull origin main
+  406  git push origin branch_1
+  407  git checkout branch_2
+  408  git pull origin main
+  409  git push origin branch_2
+  410  git checkout branch_3
+  411  git pull origin main
+  412  git pull origin branch_3
+  413  git checkout branch_1
+  414  git checkout -b branch_5
+  415  echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit nonmetus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestieaccumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros.Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae,porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Classaptent taciti sociosqu ad litora torquent per conubia nostra, per inceptoshimenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis
+pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra.Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+  416  git add text_branch_1.txt
+  417  git commit -m "cap nhat noi dung cho text_branch_1.txt cho nhanh 5"
+  418  git push origin branch_5
+  419  git checkout branch_1
+  420  git merge branch_5
+  421  git checkout branch_1
+  422  git branch -d branch_5
+  423  git checkout  main
+  424  git marge branch_1
+  425  git marge branch_2
+  426  git marge branch_3
+  427  git marge branch_4
+  428  git branch -r
+  429  git checkout -b branch_4 origin/branch_4
+  430  git checkout main
+  431  git merge branch_4
+  432  git push origin main
+  433  git checkout main
+  434  git checkout -b branch_1
+  435  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit" > text_branch_1.txt
+  436  git add text_branch_1.txt
+  437  git commit -m "them file cho nhanh 1"
+  438  git push origin branch_1
+  439  git checkout main
+  440  git checkout -b branch_2
+  441  echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+  442  git add text_branch_2.txt
+  443  git commit -m "them file vao nhanh 2"
+  444  git push origin branch_2
+  445  git checkout main
+  446  git checkout -b branch_3
+  447  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat" > text_branch_3.txt
+  448  git add text_branch_3.txt
+  449  git commit -m "them file vao nhanh 3"
+  450  git push origin branch_3
+  451  git checkout main
+  452  git checkout -b branch_4
+  453  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  454  git add text_branch_4.txt
+  455  git commit -m "them file vao nhanh 4"
+  456  git push origin branch_4
+  457  git checkout main
+  458  git merge branch_1
+  459  git merge branch_2
+  460  git merge branch_3
+  461  git push origin main
+  462  git checkout main
+  463  git checkout main
+  464  git add text_branch_1.txt
+  465  git commit -m " them file nhanh 1"
+  466  git checkout main
+  467  git branch -d branch_2
+  468  git branch -D branch_2
+  469  git branch -D branch_3
+  470  git branch -D branch_4
+  471  git checkout branch_1
+  472  git pull origin main
+  473  git push origin branch_1
+  474  git add text_branch_1.txt
+  475  git commit -m " them file nhanh 1"
+  476  git checkout main
+  477  git push origin -d branch_2
+  478  git push origin -d branch_3
+  479  git push origin -d branch_4
+  480  git checkout branch_1
+  481  git pull origin main
+  482  git push origin main
+  483  history > 53_Nguyen_Anh_Vu_Bai_tap.txt
