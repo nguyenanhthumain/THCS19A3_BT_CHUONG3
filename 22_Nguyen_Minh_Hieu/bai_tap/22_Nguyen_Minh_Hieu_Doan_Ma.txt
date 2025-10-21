@@ -1,0 +1,68 @@
+git clone https://github.com/NguyenHieu015/22_Nguyen_Minh_Hieu_Bai_Tap.git
+cd 22_Nguyen_Minh_Hieu_Bai_Tap
+git add readme.md
+git commit -m "commit lan 1"
+git push origin main
+git checkout -b branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "commit text_branch_1.txt"
+git push origin branch_1
+git checkout main
+git checkout -b branch_2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "commit text_branch_2.txt"
+git push origin branch_2
+git checkout main
+git checkout -b branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "commit text_branch_3.txt"
+git push origin branch_3
+git checkout main
+git checkout -b branch_4
+echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "commit text_branch_4.txt"
+git push origin branch_4
+git branch -d branch_4
+git push origin --delete branch_4
+git branch -a
+git pull origin main
+git checkout main
+mkdir main_folder
+cd main_folder
+touch main_txt_1.txt
+touch main_txt_2.txt
+touch main_txt_3.txt
+git add .
+git commit -m "commit tiep"
+git push origin main
+git checkout branch_1
+git merge main
+git push origin branch_1
+git checkout branch_2
+git merge main
+git push origin branch_2
+git checkout branch_3
+git merge main
+git push origin branch_3
+git checkout branch_1
+git checkout -b branch_5
+echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada vel dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "commit"
+git push origin branch_5
+git push origin --delete branch_5
+git branch -d branch_2
+git branch -d branch_3
+git branch -d branch_4
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+git checkout main
+git pull origin main
+git checkout branch_1
+git merge main
+git push origin branch_1
