@@ -1,0 +1,693 @@
+thang@juniortdt MINGW64 /d/Git
+$ git clone https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+Cloning into 'STT44_TranDucThang_BaiTap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+thang@juniortdt MINGW64 /d/Git
+$ cd STT44_TranDucThang_BaiTap
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ notepad README.md
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git add .
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git commit -m "chinh sua noi dung theo yeu bai 2"
+[main ebe5399] chinh sua noi dung theo yeu bai 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 661 bytes | 330.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   bb0e547..ebe5399  main -> main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " > text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git commit -m "them file cho nhanh 1"
+[branch_1 b692692] them file cho nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap/pull/new/branch_1
+remote:
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ * [new branch]      branch_1 -> branch_1
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git commit -m "them file cho nhanh 2"
+[branch_2 f4cc9cc] them file cho nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap/pull/new/branch_2
+remote:
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ * [new branch]      branch_2 -> branch_2
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." >text_branch_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git commit -m "them file cho nhanh 3"
+[branch_3 15b1cd7] them file cho nhanh 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 373 bytes | 373.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap/pull/new/branch_3
+remote:
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ * [new branch]      branch_3 -> branch_3
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ git add text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ git commit -m "them file cho nhanh 4"
+[branch_4 371b70b] them file cho nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 363 bytes | 90.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap/pull/new/branch_4
+remote:
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ * [new branch]      branch_4 -> branch_4
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch --delete branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+  branch_4
+* main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 371b70b).
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git pull
+Already up to date.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ mkdir main_folder
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ cd main_folder
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap/main_folder (main)
+$ echo "noi dung 1" > main_txt_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap/main_folder (main)
+$ echo "noi dung 2" > main_txt_2.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap/main_folder (main)
+$ echo "noi dung 3" > main_txt_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap/main_folder (main)
+$ cd ..
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git add main_folder
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git commit -m "them thu muc main_folder chua 3 file"
+[main bd3f443] them thu muc main_folder chua 3 file
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 478 bytes | 239.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   ebe5399..bd3f443  main -> main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git pull origin main
+From https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 426 bytes | 426.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   b692692..6bc0b46  branch_1 -> branch_1
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git pull origin main
+From https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git push origini branch_2
+fatal: 'origini' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 426 bytes | 426.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   f4cc9cc..227ddff  branch_2 -> branch_2
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git pull origin main
+From https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 1 +
+ main_folder/main_txt_3.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 426 bytes | 426.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   15b1cd7..5072df8  branch_3 -> branch_3
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_3)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git commit -m "cap nhat noi dung cho text_branch_1.txt cho nhanh 5"
+[branch_5 cda736c] cap nhat noi dung cho text_branch_1.txt cho nhanh 5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 682 bytes | 341.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap/pull/new/branch_5
+remote:
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ * [new branch]      branch_5 -> branch_5
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git merge branch_5
+Updating 6bc0b46..cda736c
+Fast-forward
+ text_branch_1.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_1
+Already on 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git commit -m "sua noi dung de tao conflic"
+[branch_1 a58e9c3] sua noi dung de tao conflic
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   6bc0b46..a58e9c3  branch_1 -> branch_1
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git merge branch_5
+Already up to date.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ notepad text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ notepad text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git diff branch_1 branch_5 -- text_branch_1.txt
+diff --git a/text_branch_1.txt b/text_branch_1.txt
+index 4f006a8..65ffca3 100644
+--- a/text_branch_1.txt
++++ b/text_branch_1.txt
+@@ -1 +1 @@
+-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
++Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git checkout branch_1
+git merge branch_5
+Switched to branch 'branch_1'
+Already up to date.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ ^C
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git status
+On branch branch_1
+nothing to commit, working tree clean
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git status
+On branch branch_5
+nothing to commit, working tree clean
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ ^C
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_5)
+$ git checkout branch_1
+git log -- text_branch_1.txt
+Switched to branch 'branch_1'
+commit a58e9c331e2945eb9a5d6f5fc97910a4ef5e6183 (HEAD -> branch_1, origin/branch_1)
+Author: Trần Đức Thắng <juniortdt1409@gmail.com>
+Date:   Tue Oct 21 16:23:12 2025 +0700
+
+    sua noi dung de tao conflic
+
+commit cda736c2402d6252b0031b09f323f7ea8449a925 (origin/branch_5, branch_5)
+Author: Trần Đức Thắng <juniortdt1409@gmail.com>
+Date:   Tue Oct 21 16:04:58 2025 +0700
+
+    cap nhat noi dung cho text_branch_1.txt cho nhanh 5
+
+commit b6926928a81a48a372eba8f7d4eccc917d4bb935
+Author: Trần Đức Thắng <juniortdt1409@gmail.com>
+Date:   Tue Oct 21 15:26:17 2025 +0700
+
+    them file cho nhanh 1
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Thêm nội dung ban đầu ở branch_1"
+git push origin branch_1
+Already on 'branch_1'
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+On branch branch_1
+nothing to commit, working tree clean
+Everything up-to-date
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout branch_1
+git merge branch_5
+Already on 'branch_1'
+Already up to date.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git branch -d branch_5
+Deleted branch branch_5 (was cda736c).
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git merge branch_1
+Updating bd3f443..a58e9c3
+Fast-forward
+ text_branch_1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git merge branch_2
+Merge made by the 'ort' strategy.
+ text_branch_2.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git merge branch_3
+Merge made by the 'ort' strategy.
+ text_branch_3.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git merge branch_4
+merge: branch_4 - not something we can merge
+
+Did you mean this?
+        origin/branch_4
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git merge branch_4
+merge: branch_4 - not something we can merge
+
+Did you mean this?
+        origin/branch_4
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ ^C
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch -r
+  origin/HEAD -> origin/main
+  origin/branch_1
+  origin/branch_2
+  origin/branch_3
+  origin/branch_4
+  origin/branch_5
+  origin/main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout -b branch_4 origin/branch_4
+branch 'branch_4' set up to track 'origin/branch_4'.
+Switched to a new branch 'branch_4'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_4)
+$ git checkout main
+git merge branch_4
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 10 commits.
+  (use "git push" to publish your local commits)
+Merge made by the 'ort' strategy.
+ text_branch_4.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 918 bytes | 918.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   bd3f443..6f3200a  main -> main
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 227ddff).
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 5072df8).
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git branch -d branch_4
+Deleted branch branch_4 (was 371b70b).
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin -d branch_2
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ - [deleted]         branch_2
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin -d branch_3
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ - [deleted]         branch_3
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git push origin -d branch_4
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+ - [deleted]         branch_4
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git pull origin main
+From https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap
+ * branch            main       -> FETCH_HEAD
+Updating a58e9c3..6f3200a
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/juniorDev-thang/STT44_TranDucThang_BaiTap.git
+   a58e9c3..6f3200a  branch_1 -> branch_1
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+thang@juniortdt MINGW64 /d/Git/STT44_TranDucThang_BaiTap (main)
