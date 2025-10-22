@@ -1,0 +1,35 @@
+# THCS19A3_BT_CHUONG3
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~
+$ cd 50_Dao-Quoc-Viet_bai_tap
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/HPC/50_Dao-Quoc-Viet_bai_tap/.git/
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ echo "# Bai tap Git" > README.md
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ git commit -m "Them file README.md"
+On branch master
+nothing to commit, working tree clean
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ git remote add origin https://github.com/dqviet25174600159-ai/50_-o-Qu-c-Vi-t_bai_tap.git
+error: remote origin already exists.
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$ git clone https://github.com/dqviet25174600159-ai/50_-o-Qu-c-Vi-t_bai_tap.git
+Cloning into '50_-o-Qu-c-Vi-t_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_Dao-Quoc-Viet_bai_tap (master)
+$
