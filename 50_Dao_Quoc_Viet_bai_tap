@@ -1,0 +1,16 @@
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_-o-Qu-c-Vi-t_bai_tap (main)
+$ https://github.com/dqviet25174600159-ai/50_Dao-Quoc-Viet_bai_tap.git
+bash: https://github.com/dqviet25174600159-ai/50_Dao-Quoc-Viet_bai_tap.git: No such file or directory
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_-o-Qu-c-Vi-t_bai_tap (main)
+$ git clone https://github.com/dqviet25174600159-ai/50_Dao-Quoc-Viet_bai_tap.git
+Cloning into '50_Dao-Quoc-Viet_bai_tap'...
+remote: Repository not found.
+fatal: repository 'https://github.com/dqviet25174600159-ai/50_Dao-Quoc-Viet_bai_tap.git/' not found
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_-o-Qu-c-Vi-t_bai_tap (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+HPC@DESKTOP-ITAUBC1 MINGW64 ~/50_-o-Qu-c-Vi-t_bai_tap (main)
