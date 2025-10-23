@@ -1,0 +1,47 @@
+
+git init
+git branch branch_1
+git checkout branch_1
+echo "Noi dung file text_branch_1.txt" > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Bai 1: Tao file text_branch_1.txt tren branch_1"
+git push origin branch_1
+git checkout -b branch_2
+echo "Noi dung file text_branch_2.txt" > text_branch_2.txt
+git add text_branch_2.txt
+git commit -m "Bai 2: Tao file text_branch_2.txt tren branch_2"
+git push origin branch_2
+git checkout -b branch_3
+echo "Noi dung file text_branch_3.txt" > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Bai 2: Tao file text_branch_3.txt tren branch_3"
+git push origin branch_3
+git checkout -b branch_4
+echo "Noi dung file text_branch_4.txt" > text_branch_4.txt
+git add text_branch_4.txt
+git commit -m "Bai 2: Tao file text_branch_4.txt tren branch_4"
+git push origin branch_4
+git checkout branch_1
+git checkout -b branch_5
+echo "Noi dung bai 7 duoc them vao day..." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Bai 7: Chinh sua file text_branch_1.txt tren branch_5"
+git push origin branch_5
+git branch -d branch_5
+git push origin --delete branch_5
+git checkout main
+git merge branch_1
+git merge branch_2
+git merge branch_3
+git merge branch_4
+git merge branch_5
+git push origin main
+git branch -d branch_2
+git branch -d branch_3
+git branch -d branch_4
+git push origin --delete branch_2
+git push origin --delete branch_3
+git push origin --delete branch_4
+git checkout branch_1
+git pull origin main
+git push origin branch_1
