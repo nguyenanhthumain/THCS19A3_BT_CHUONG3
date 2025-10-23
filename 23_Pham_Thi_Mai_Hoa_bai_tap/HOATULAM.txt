@@ -1,0 +1,418 @@
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop (master)
+$ git clone https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+Cloning into '23_Pham_Thi_Mai_Hoa_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop (master)
+$ cd 23_Pham_Thi_Mai_Hoa_bai_tap
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, eros at
+lacinia suscipit, magna turpis aliquam est, sit amet aliquam quam libero id mi. Ut
+vel placerat risus. Sed tempor in ex vitae sodales. Donec et tempor orci. In
+pharetra viverra sagittis. Vestibulum risus ante, molestie ac eros efficitur, bibendum
+tincidunt turpis. In sit amet tortor gravida, ultricies ante vitae, varius tortor. Aliquam finibus porta nulla sed gravida. Aliquam ultricies dapibus ante eget
+molestie. In hac habitasse platea dictumst. Aliquam aliquam enim at massa
+pharetra, et vestibulum sapien consequat. Donec accumsan quis metus at
+pellentesque. Morbi quis felis placerat, interdum justo a, aliquam risus" > README.md
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git commit -m "Hoa"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git commit -m "Hoa"
+[main 90f8952] Hoa
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 614 bytes | 307.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+   dd59b98..90f8952  main -> main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git branch branch_1
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "" > text_branch_1.txt
+> ""
+> "
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.  > text_branch_1.txt
+
+
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git branch branch_2
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git branch -D branch_2
+Deleted branch branch_2 (was 90f8952).
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git branch branch_2 main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_2)
+$ git branch branch_3 main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_3)
+$ git branch branch_4 main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_3)
+$ git checkout branch_4
+Switched to branch 'branch_4'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ git commit -m ""Hoaluoihoc""
+On branch branch_4
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text_branch_1.txt
+        text_branch_2.txt
+        text_branch_3.txt
+        text_branch_4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ git commit -m "Hoachamhoc"
+[branch_4 37b3373] Hoachamhoc
+ 4 files changed, 4 insertions(+)
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ git push origin main
+Everything up-to-date
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 37b3373).
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git branch -a
+  branch_1
+  branch_2
+  branch_3
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin branch_2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin branch_3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ mkdir main_folder
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ cd main_folder
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ echo > main_txt_1.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ echo > main_txt_2.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ echo > main_txt_3.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ git branch -a
+  branch_1
+  branch_2
+  branch_3
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/branch_2
+  remotes/origin/branch_3
+  remotes/origin/main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_2)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git branch branch_5 branch_1
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git checkout branch_5
+Switched to branch 'branch_5'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_5)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git merge branch_5
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git branch -d branch_5
+Deleted branch branch_5 (was 90f8952).
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git checkout branch_4
+error: pathspec 'branch_4' did not match any file(s) known to git
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git branch -a
+* branch_1
+  branch_2
+  branch_3
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch_1
+  remotes/origin/branch_2
+  remotes/origin/branch_3
+  remotes/origin/main
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git checkout branch_2
+Switched to branch 'branch_2'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_2)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_2)
+$ git checkout branch_3
+Switched to branch 'branch_3'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git branch -d branch_2
+Deleted branch branch_2 (was 90f8952).
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git branch -d branch_3
+error: cannot delete branch 'branch_3' used by worktree at 'C:/Users/USER/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 90f8952).
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git merge main
+Already up to date.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git add .
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main_folder/main_txt_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git push origin branch_1
+Everything up-to-date
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ git push origin main
+Everything up-to-date
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap/main_folder (branch_1)
+$ cd ../
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git add .
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git commit -m "first"
+[branch_1 3d28b08] first
+ 7 files changed, 7 insertions(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+ create mode 100644 text_branch_1.txt
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git push origin main
+Everything up-to-date
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 710 bytes | 710.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ptmhoa25174600154-ux/23_Pham_Thi_Mai_Hoa_bai_tap.git
+   90f8952..3d28b08  branch_1 -> branch_1
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (branch_1)
+$ git checkout main
+Deletion of directory 'main_folder' failed. Should I try again? (y/n) n
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git add .
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git commit -m ""Hoaday""
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git commit -m "Hoaday"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin main
+Everything up-to-date
+
+USER@DESKTOP-5D4V0UP MINGW64 ~/OneDrive/Desktop/23_Pham_Thi_Mai_Hoa_bai_tap (main)
+$ git push origin branch_1
+Everything up-to-date
