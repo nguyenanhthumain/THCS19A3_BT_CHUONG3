@@ -1,0 +1,682 @@
+NGOC_ANH_PC@MSI MINGW64 /e/git
+$ git clone https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+Cloning into '02_Do_Ngoc_Anh_bai_tap'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git
+$ cd 02_Do_Ngoc_Anh_bai_tap
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ notepad README.md
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git add README.md
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git commit -m "chinh sua noi dung bai 2"
+[main aec1b37] chinh sua noi dung bai 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 643 bytes | 643.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+   b51de1a..aec1b37  main -> main
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout -b branch_1
+Switched to a new branch 'branch_1'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git add text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git commit -m "them file cho nhanh 1"
+[branch_1 b99d7a4] them file cho nhanh 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git push origin branch_1
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 360 bytes | 360.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_1' on GitHub by visiting:
+remote:      https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap/pull/new/branch_1
+remote:
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ * [new branch]      branch_1 -> branch_1
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout -b branch_2
+Switched to a new branch 'branch_2'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch_2.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ git add text_branch_2.txt
+warning: in the working copy of 'text_branch_2.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ git commit -b "them file vao nhanh 2"
+error: unknown switch `b'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --[no-]squash <commit>
+                          use autosquash formatted message to squash specified commit
+    --[no-]reset-author   the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --[no-]signoff    add a Signed-off-by trailer
+    -t, --[no-]template <file>
+                          use specified template file
+    -e, --[no-]edit       force edit of commit
+    --[no-]cleanup <mode> how to strip spaces and #comments from message
+    --[no-]status         include status in commit message template
+    -S, --[no-]gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --[no-]all        commit all changed files
+    -i, --[no-]include    add specified files to index for commit
+    --[no-]interactive    interactively add files
+    -p, --[no-]patch      interactively add changes
+    -U, --unified <n>     generate diffs with <n> lines context
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    -o, --[no-]only       commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --verify              opposite of --no-verify
+    --[no-]dry-run        show what would be committed
+    --[no-]short          show status concisely
+    --[no-]branch         show branch information
+    --[no-]ahead-behind   compute full ahead/behind values
+    --[no-]porcelain      machine-readable output
+    --[no-]long           show status in long format (default)
+    -z, --[no-]null       terminate entries with NUL
+    --[no-]amend          amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    --post-rewrite        opposite of --no-post-rewrite
+    -u, --[no-]untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ git commit -m "them file vao nhanh 2"
+[branch_2 125e254] them file vao nhanh 2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_2.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ git push origin branch_2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 353 bytes | 353.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_2' on GitHub by visiting:
+remote:      https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap/pull/new/branch_2
+remote:
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ * [new branch]      branch_2 -> branch_2
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout -b branch_3
+Switched to a new branch 'branch_3'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat. " > text_branch_3.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ git add text_branch_3.txt
+warning: in the working copy of 'text_branch_3.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ git commit-m"them file vao nhanh 3"
+git: 'commit-mthem file vao nhanh 3' is not a git command. See 'git --help'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ git commit -m "them file vao nhanh3"
+[branch_3 47c2a87] them file vao nhanh3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_3.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ git push origin branch_3
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 361 bytes | 361.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_3' on GitHub by visiting:
+remote:      https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap/pull/new/branch_3
+remote:
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ * [new branch]      branch_3 -> branch_3
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ checkout main
+bash: checkout: command not found
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_3)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout -b branch_4
+Switched to a new branch 'branch_4'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ echo "Cras ac mi nec nisi porta ultrices sed non ante." >  text_branch_4.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git add  text_branch_4.txt
+warning: in the working copy of 'text_branch_4.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git commit -m "them file vao nhanh 4"
+[branch_4 8992af7] them file vao nhanh 4
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 353 bytes | 353.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'branch_4' on GitHub by visiting:
+remote:      https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap/pull/new/branch_4
+remote:
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ * [new branch]      branch_4 -> branch_4
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch –delete branch_4
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch –list
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+  branch_4
+* main
+  –delete
+  –list
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -D -delete
+error: did you mean `--delete` (with two dashes)?
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -d branch_4
+error: the branch 'branch_4' is not fully merged
+hint: If you are sure you want to delete it, run 'git branch -D branch_4'
+hint: Disable this message with "git config set advice.forceDeleteBranch false"
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -D branch_4
+Deleted branch branch_4 (was 8992af7).
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch --list
+  branch_1
+  branch_2
+  branch_3
+* main
+  –delete
+  –list
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git pull
+Already up to date.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ mkdir main_folder
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ cd main_folder
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap/main_folder (main)
+$ echo > main_txt_1.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap/main_folder (main)
+$ touch main_txt_2.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap/main_folder (main)
+$ touch main_txt_3.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap/main_folder (main)
+$ cd ..
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git add main_folder
+warning: in the working copy of 'main_folder/main_txt_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git commit -m "them thu muc chua 3 file"
+[main f28888c] them thu muc chua 3 file
+ 3 files changed, 1 insertion(+)
+Merge branch 'main' of https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap into b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 1 insertion(+)
+Merge branch 'main' of https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap into b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 1 insertion(+)
+Merge branch 'main' of https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap into b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_1.txt
+Merge branch 'main' of https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap into b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+ main_folder/main_txt_1.txt | 1 +
+ main_folder/main_txt_2.txt | 0
+ main_folder/main_txt_3.txt | 0
+ 3 files changed, 1 insertion(+)
+ create mode 100644 main_folder/main_txt_1.txt
+ create mode 100644 main_folder/main_txt_2.txt
+ create mode 100644 main_folder/main_txt_3.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git push origin branch_4
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 410 bytes | 410.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+   8992af7..bf75c55  branch_4 -> branch_4
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_4)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git checkout -b branch_5
+Switched to a new branch 'branch_5'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_5)
+$ echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non  metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan  sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el  dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis  ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula  auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim.
+"  >  text_branch_1.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_5)
+$ git add  text_branch_1.txt
+warning: in the working copy of 'text_branch_1.txt', LF will be replaced by CRLF the next time Git touches it
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_5)
+$ git commit -m"chinh sua noi dung cho nhanh 5"
+[branch_5 99fb12f] chinh sua noi dung cho nhanh 5
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_5)
+$ git push origin branch_5
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 658 bytes | 658.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'branch_5' on GitHub by visiting:
+remote:      https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap/pull/new/branch_5
+remote:
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ * [new branch]      branch_5 -> branch_5
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_5)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git pull origin main
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git merge branch_1
+Updating f28888c..830fc7c
+Fast-forward
+ text_branch_1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_1.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+   f28888c..830fc7c  main -> main
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git merge branch_5
+Updating 830fc7c..99fb12f
+Fast-forward
+ text_branch_1.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+Merge branch 'branch_2'
+
+
+
+
+
+
+
+Merge branch 'branch_3'
+
+
+
+
+
+
+
+Merge branch 'branch_4'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Merge made by the 'ort' strategy.
+ text_branch_4.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_branch_4.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 884 bytes | 442.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+   830fc7c..0c51488  main -> main
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -d branch_2
+Deleted branch branch_2 (was aa4d27e).
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -d branch_3
+Deleted branch branch_3 (was 0ecdc15).
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git branch -d branch_4
+Deleted branch branch_4 (was bf75c55).
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push origin -d branch_2
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ - [deleted]         branch_2
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push origin -d branch_3
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ - [deleted]         branch_3
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git push -d origin branch_4
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+ - [deleted]         branch_4
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ git checkout branch_1
+Switched to branch 'branch_1'
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git pull origin main
+From https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap
+ * branch            main       -> FETCH_HEAD
+Updating 99fb12f..0c51488
+Fast-forward
+ text_branch_2.txt | 1 +
+ text_branch_3.txt | 1 +
+ text_branch_4.txt | 1 +
+ 3 files changed, 3 insertions(+)
+ create mode 100644 text_branch_2.txt
+ create mode 100644 text_branch_3.txt
+ create mode 100644 text_branch_4.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git push origin branch_1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Ng-Anh12/02_Do_Ngoc_Anh_bai_tap.git
+   830fc7c..0c51488  branch_1 -> branch_1
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (branch_1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ touch 02_Do_Ngoc_Anh_doan_ma.txt
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ notepad ^C
+
+NGOC_ANH_PC@MSI MINGW64 /e/git/02_Do_Ngoc_Anh_bai_tap (main)
+$ notepad 02_Do_Ngoc_Anh_doan_ma.txt
+
